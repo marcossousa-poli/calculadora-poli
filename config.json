@@ -1,0 +1,21 @@
+{
+  "planos": {
+    "entrada": { "nome": "Entrada", "mensalidade": 369.9, "usuariosInclusos": 3, "usuarioAdicional": 129.9, "creditosInclusos": 250 },
+    "inicial": { "nome": "Inicial", "mensalidade": 849.9, "usuariosInclusos": 7, "usuarioAdicional": 119.9, "creditosInclusos": 250 },
+    "expansao": { "nome": "Expansão", "mensalidade": 1399.9, "usuariosInclusos": 12, "usuarioAdicional": 99.9, "creditosInclusos": 500 },
+    "ilimitado": { "nome": "Ilimitado", "mensalidade": 4999.9, "usuariosInclusos": 0, "usuarioAdicional": 99.9, "creditosInclusos": 1000 }
+  },
+  "pacotes": {
+    "100": { "qtd": 100, "preco": 18 },
+    "250": { "qtd": 250, "preco": 40 },
+    "500": { "qtd": 500, "preco": 70 },
+    "1000": { "qtd": 1000, "preco": 120 },
+    "3000": { "qtd": 3000, "preco": 300 },
+    "5000": { "qtd": 5000, "preco": 450 },
+    "10000": { "qtd": 10000, "preco": 800 },
+    "50000": { "qtd": 50000, "preco": 3000 },
+    "avulso": { "qtd": 1, "preco": 0.3 }
+  },
+  "adicionais": { "poliFlow": 29.9, "canalAdicional": 269.9 },
+  "meta": { "marketing": 0.34, "utilidade": 0.04, "autenticacao": 0.17, "servico": 0 }
+}
