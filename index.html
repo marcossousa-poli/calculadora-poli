@@ -344,7 +344,10 @@
     const salva = localStorage.getItem(CHAVE_SENHA);
     return salva ? decSenha(JSON.parse(salva)) : decSenha(SENHA_PADRAO_CODIFICADA);
   }
-  function getGhRepo(){ return localStorage.getItem(CHAVE_GH_REPO) || ""; }
+  function getGhRepo(){
+  const salvo = localStorage.getItem(CHAVE_GH_REPO);
+  return salvo ? salvo : "marcoussousa-poli/calculadora-poli";
+}
   function getGhToken(){ return localStorage.getItem(CHAVE_GH_TOKEN) || ""; }
 
   let config = JSON.parse(JSON.stringify(CONFIG_DEFAULT));
